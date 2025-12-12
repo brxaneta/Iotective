@@ -1,5 +1,5 @@
 # IoTective - IoT Network Security Scanner
-IoTective is a comprehensive network security scanner designed to identify, analyze, and assess vulnerabilities in IoT devices on your local network. 
+IoTective is a comprehensive and lightweight network security scanner designed to identify, analyze, and assess vulnerabilities in IoT devices on your local network. 
 Built with Python and featuring an intuitive GUI, it helps security researchers, network administrators, and homeowners understand their network security posture.
 
 ## ⚠️ Legal Notice
@@ -72,7 +72,7 @@ Option 1: Python Installation (Recommended for Development)
 
 1. Clone the repository
 ```
-   git clone https://github.com/yourusername/iotective.git
+   git clone https://github.com/brxaneta/iotective.git
    cd iotective
 ```
 
@@ -88,3 +88,32 @@ Option 1: Python Installation (Recommended for Development)
    # Linux/macOS (Run with sudo)
    sudo python3 iot_scanner.py
 ```
+
+## 📖 Usage
+**Basic Workflow**
+
+Launch IoTective with administrator/root privileges
+Accept the legal disclaimer (required on first run)
+Review detected network - The tool auto-detects your local network
+Click "Start Scan" to begin the security assessment
+Review results - Examine discovered devices and vulnerabilities
+Export report - Save results as CSV for further analysis
+
+**Configuration**
+Click the ⚙️ Settings button to customize:
+
+- Scan Settings
+   - Timeout: 0.1s - 3.0s (lower = faster, higher = more reliable)
+   - Max Threads: 10 - 100 (higher = faster, but more CPU intensive)
+   - Scan Speed Presets: Fast, Medium, Thorough
+
+- Port Configuration
+   - Common Ports: 21, 22, 23, 53, 80, 443, 8080
+   - IoT-Specific: 1883 (MQTT), 5683 (CoAP), 1900 (UPnP), 554 (RTSP)
+   - Custom Ports: Add your own comma-separated list
+
+- Vulnerability Checks
+   - SSL/TLS Configuration
+   - Default Credentials
+   - Banner Grabbing
+   = Weak Password Patterns
