@@ -7,9 +7,9 @@ Built with Python and featuring an intuitive GUI, it helps security researchers,
 ## ⚠️ Legal Notice
 **IMPORTANT:** This tool is designed for authorized security testing and educational purposes only. You must have explicit permission to scan any network. Unauthorized network scanning may violate:
 
-- Computer Fraud and Abuse Act (CFAA) - 18 U.S.C. § 1030
-- Electronic Communications Privacy Act (ECPA)
-- State and local computer crime laws
++ Computer Fraud and Abuse Act (CFAA) - 18 U.S.C. § 1030
++ Electronic Communications Privacy Act (ECPA)
++ State and local computer crime laws
 
 **By using this tool, you accept full responsibility for your actions.**
 
