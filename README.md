@@ -16,58 +16,58 @@ Built with Python and featuring an intuitive GUI, it helps security researchers,
 ## Features
 ### 🔍 Network Discovery
 
-Automatic network detection - Identifies your local network range
-ARP-based device discovery - Fast and reliable device enumeration
-MAC address vendor identification - Automatically identifies device manufacturers
++ Automatic network detection - Identifies your local network range
++ ARP-based device discovery - Fast and reliable device enumeration
++ MAC address vendor identification - Automatically identifies device manufacturers
 
 ### 🔌 Port Scanning
 
-Configurable port lists - Scan common, IoT-specific, or custom ports
-Multi-threaded scanning - Fast, efficient port detection
-Adjustable scan speed - Balance between speed and accuracy
++ Configurable port lists - Scan common, IoT-specific, or custom ports
++ Multi-threaded scanning - Fast, efficient port detection
++ Adjustable scan speed - Balance between speed and accuracy
 
 ### 🛡️ Vulnerability Detection
 
-Service fingerprinting - Identifies running services and versions
-Banner grabbing - Extracts service information for analysis
-CVE cross-referencing - Links to known vulnerabilities
-Pattern-based detection - Identifies common security issues:
++ Service fingerprinting - Identifies running services and versions
++ Banner grabbing - Extracts service information for analysis
++ CVE cross-referencing - Links to known vulnerabilities
++ Pattern-based detection - Identifies common security issues:
 
-Telnet services (critical)
-Default credentials
-Unencrypted protocols (FTP, HTTP)
-Weak authentication
-Open databases
-UPnP exposure
-IoT-specific vulnerabilities
++ Telnet services (critical)
++ Default credentials
++ Unencrypted protocols (FTP, HTTP)
++ Weak authentication
++ Open databases
++ UPnP exposure
++ IoT-specific vulnerabilities
 
 ### 📊 Risk Assessment
 
-Color-coded severity levels - Critical, High, Medium, Low
-Risk scoring system - Quantitative security posture measurement
-Vendor-specific checks - Tailored warnings for Ring, ESP32, Samsung, Amazon devices
-Remediation guidance - Actionable security recommendations
++ Color-coded severity levels - Critical, High, Medium, Low
++ Risk scoring system - Quantitative security posture measurement
++ Vendor-specific checks - Tailored warnings for Ring, ESP32, Samsung, Amazon devices
++ Remediation guidance - Actionable security recommendations
 
 ### 💾 Reporting
 
-Real-time GUI output - Color-coded, detailed scan results
-CSV export - Comprehensive vulnerability reports
-Detailed logging - Full scan history with rotating logs
-Security summary - Network-wide security statistics
++ Real-time GUI output - Color-coded, detailed scan results
++ CSV export - Comprehensive vulnerability reports
++ Detailed logging - Full scan history with rotating logs
++ Security summary - Network-wide security statistics
 
 ### ⚙️ Customization
 
-Configurable settings - Adjust timeouts, threads, and scan speed
-Custom port lists - Define your own ports to scan
-Toggle vulnerability checks - Enable/disable specific security tests
-Persistent configuration - Settings saved between sessions
++ Configurable settings - Adjust timeouts, threads, and scan speed
++ Custom port lists - Define your own ports to scan
++ Toggle vulnerability checks - Enable/disable specific security tests
++ Persistent configuration - Settings saved between sessions
 
 ## 🚀 Quick Start
 **Prerequisites**
 
-- Python 3.8 or higher
-- Administrator/Root privileges (required for ARP scanning)
-- Windows, Linux, or macOS
++ Python 3.8 or higher
++ Administrator/Root privileges (required for ARP scanning)
++ Windows, Linux, or macOS
 
 **Installation**
 
