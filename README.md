@@ -83,12 +83,12 @@ Built with Python and featuring an intuitive GUI, it helps security researchers,
 ## 📖 Usage
 **Basic Workflow**
 
-Launch IoTective with administrator/root privileges
-Accept the legal disclaimer (required on first run)
-Review detected network - The tool auto-detects your local network
-Click "Start Scan" to begin the security assessment
-Review results - Examine discovered devices and vulnerabilities
-Export report - Save results as CSV for further analysis
+1. Launch IoTective with administrator/root privileges
+2. Accept the legal disclaimer (required on first run)
+3. Review detected network - The tool auto-detects your local network
+4. Click "Start Scan" to begin the security assessment
+5. Review results - Examine discovered devices and vulnerabilities
+6. Export report - Save results as CSV for further analysis
 
 **Configuration**
 Click the ⚙️ Settings button to customize:
@@ -107,12 +107,12 @@ Click the ⚙️ Settings button to customize:
    - SSL/TLS Configuration
    - Default Credentials
    - Banner Grabbing
-   = Weak Password Patterns
+   - Weak Password Patterns
 
 ## Acknowledgments
 
-Scapy - Powerful packet manipulation library
-MAC Vendors API - MAC address vendor lookup service
-NIST NVD - CVE vulnerability database
-CISA - Cybersecurity guidance and best practices
-Iotective Icon Attribute - <a href="https://www.flaticon.com/free-icons/detective" title="detective icons">Detective icons created by Freepik - Flaticon</a>
++ Scapy - Powerful packet manipulation library
++ MAC Vendors API - MAC address vendor lookup service
++ NIST NVD - CVE vulnerability database
++ CISA - Cybersecurity guidance and best practices
++ Iotective Icon Attribute - <a href="https://www.flaticon.com/free-icons/detective" title="detective icons">Detective icons created by Freepik - Flaticon</a>
