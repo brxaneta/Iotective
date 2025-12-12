@@ -1,5 +1,6 @@
 # IoTective - IoT Network Security Scanner
-<img width="512" height="512" alt="Iotective" src="https://github.com/user-attachments/assets/c977700b-f784-400b-a8d5-ebd2e4fa8559" />
+<img width="128" height="128" alt="Iotective" src="https://github.com/user-attachments/assets/c977700b-f784-400b-a8d5-ebd2e4fa8559" />
+
 IoTective is a comprehensive and lightweight network security scanner designed to identify, analyze, and assess vulnerabilities in IoT devices on your local network. 
 Built with Python and featuring an intuitive GUI, it helps security researchers, network administrators, and homeowners understand their network security posture.
 
