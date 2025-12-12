@@ -1,4 +1,5 @@
 # IoTective - IoT Network Security Scanner
+<img width="512" height="512" alt="Iotective" src="https://github.com/user-attachments/assets/c977700b-f784-400b-a8d5-ebd2e4fa8559" />
 IoTective is a comprehensive and lightweight network security scanner designed to identify, analyze, and assess vulnerabilities in IoT devices on your local network. 
 Built with Python and featuring an intuitive GUI, it helps security researchers, network administrators, and homeowners understand their network security posture.
 
@@ -106,3 +107,11 @@ Click the ⚙️ Settings button to customize:
    - Default Credentials
    - Banner Grabbing
    = Weak Password Patterns
+
+## Acknowledgments
+
+Scapy - Powerful packet manipulation library
+MAC Vendors API - MAC address vendor lookup service
+NIST NVD - CVE vulnerability database
+CISA - Cybersecurity guidance and best practices
+Iotective Icon Attribute - <a href="https://www.flaticon.com/free-icons/detective" title="detective icons">Detective icons created by Freepik - Flaticon</a>
