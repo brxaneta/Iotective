@@ -61,32 +61,21 @@ Toggle vulnerability checks - Enable/disable specific security tests
 Persistent configuration - Settings saved between sessions
 
 ## 🚀 Quick Start
-Prerequisites
+**Prerequisites**
 
-Python 3.8 or higher
-Administrator/Root privileges (required for ARP scanning)
-Windows, Linux, or macOS
+- Python 3.8 or higher
+- Administrator/Root privileges (required for ARP scanning)
+- Windows, Linux, or macOS
 
-Installation
-Option 1: Python Installation (Recommended for Development)
+**Installation**
 
-1. Clone the repository
-```
-   git clone https://github.com/brxaneta/iotective.git
-   cd iotective
-```
-
-2. Install dependencies
+1. Install dependencies
 ```
    pip install -r requirements.txt
 ```
-3. Run the scanner
+2. Run the scanner
 ```
-   # Windows (Run as Administrator)
    python iot_scanner.py
-   
-   # Linux/macOS (Run with sudo)
-   sudo python3 iot_scanner.py
 ```
 
 ## 📖 Usage
