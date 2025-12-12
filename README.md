@@ -1,2 +1,90 @@
-# Iotective
-IoTective is a comprehensive network security scanner designed to identify, analyze, and assess vulnerabilities in IoT devices on your local network
+# IoTective - IoT Network Security Scanner
+IoTective is a comprehensive network security scanner designed to identify, analyze, and assess vulnerabilities in IoT devices on your local network. 
+Built with Python and featuring an intuitive GUI, it helps security researchers, network administrators, and homeowners understand their network security posture.
+
+## ⚠️ Legal Notice
+**IMPORTANT:** This tool is designed for authorized security testing and educational purposes only. You must have explicit permission to scan any network. Unauthorized network scanning may violate:
+
+- Computer Fraud and Abuse Act (CFAA) - 18 U.S.C. § 1030
+- Electronic Communications Privacy Act (ECPA)
+- State and local computer crime laws
+
+**By using this tool, you accept full responsibility for your actions.**
+
+## Features
+### 🔍 Network Discovery
+
+Automatic network detection - Identifies your local network range
+ARP-based device discovery - Fast and reliable device enumeration
+MAC address vendor identification - Automatically identifies device manufacturers
+
+### 🔌 Port Scanning
+
+Configurable port lists - Scan common, IoT-specific, or custom ports
+Multi-threaded scanning - Fast, efficient port detection
+Adjustable scan speed - Balance between speed and accuracy
+
+### 🛡️ Vulnerability Detection
+
+Service fingerprinting - Identifies running services and versions
+Banner grabbing - Extracts service information for analysis
+CVE cross-referencing - Links to known vulnerabilities
+Pattern-based detection - Identifies common security issues:
+
+Telnet services (critical)
+Default credentials
+Unencrypted protocols (FTP, HTTP)
+Weak authentication
+Open databases
+UPnP exposure
+IoT-specific vulnerabilities
+
+### 📊 Risk Assessment
+
+Color-coded severity levels - Critical, High, Medium, Low
+Risk scoring system - Quantitative security posture measurement
+Vendor-specific checks - Tailored warnings for Ring, ESP32, Samsung, Amazon devices
+Remediation guidance - Actionable security recommendations
+
+### 💾 Reporting
+
+Real-time GUI output - Color-coded, detailed scan results
+CSV export - Comprehensive vulnerability reports
+Detailed logging - Full scan history with rotating logs
+Security summary - Network-wide security statistics
+
+### ⚙️ Customization
+
+Configurable settings - Adjust timeouts, threads, and scan speed
+Custom port lists - Define your own ports to scan
+Toggle vulnerability checks - Enable/disable specific security tests
+Persistent configuration - Settings saved between sessions
+
+## 🚀 Quick Start
+Prerequisites
+
+Python 3.8 or higher
+Administrator/Root privileges (required for ARP scanning)
+Windows, Linux, or macOS
+
+Installation
+Option 1: Python Installation (Recommended for Development)
+
+1. Clone the repository
+```
+   git clone https://github.com/yourusername/iotective.git
+   cd iotective
+```
+
+2. Install dependencies
+```
+   pip install -r requirements.txt
+```
+3. Run the scanner
+```
+   # Windows (Run as Administrator)
+   python iot_scanner.py
+   
+   # Linux/macOS (Run with sudo)
+   sudo python3 iot_scanner.py
+```
